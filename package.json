@@ -1,0 +1,17 @@
+{
+  "name": "template_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev":"electronmon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electronmon": "^2.0.3"
+  }
+}
