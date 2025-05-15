@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Template Bonitão</title>
+    <title>Gerenciador de Tarefas</title>
 </head>
 <body>
-    <h1>MEU HTML TA PELADO!!!</h1>
+    <div>
+        <h1>Minhas Tarefas</h1>
+        <input type="text" id="input-tarefa" placeholder="nova tarefa">
+        <button class="buttonadd" onclick="addTask()">Adicionar</button>
+        <ul>
+            <li>Tarefa 1<button>Remover</button></li>
+            <li>Tarefa 2<button>Remover</button></li>
+            <li>Tarefa 3<button>Remover</button></li>
+        </ul>
+    </div>
     <script src="../js/script.js"></script>
 </body>
 </html>

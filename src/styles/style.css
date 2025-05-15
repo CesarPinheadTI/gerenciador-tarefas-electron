@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(83, 50, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(66, 44, 8);
+}
+div {
+    background-color: darkgreen;
+    max-width: 360px;
+    height: 210px;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    border: 2px solid rgb(0, 75, 0);
+}
+h1 {
+    margin-bottom: 10px;
+}
+
+input {
+    border: 2px solid rgb(0, 75, 0);
+    background-color: rgb(220, 255, 220);
+    padding: 4px;
+    border-radius: 3px;
+    color: rgb(66, 44, 8);
+    font-weight: bold;
+}
+
+input:focus-visible {
+    outline: 2px solid rgb(0, 75, 0);
+    border-radius: 3px;
+}
+
+.buttonadd {
+    background-color: rgb(220, 255, 220);
+    color: darkgreen;
+    font-weight: bold;
+    padding: 4px;
+    border: 2px solid rgb(0, 75, 0);
+    border-radius: 3px;
+}
+
+.buttonadd:hover {
+    background-color: darkgreen;
+    color: rgb(220, 255, 220);
+}
+
+ul {
+    margin-top: 20px;
+}
+li {
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
