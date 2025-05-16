@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exile&family=Underdog&display=swap" rel="stylesheet">
     <title>Gerenciador de Tarefas</title>
 </head>
 <body>
-    <div>
+    <div class="card">
         <h1>Minhas Tarefas</h1>
-        <input type="text" id="input-tarefa" placeholder="nova tarefa">
-        <button class="buttonadd" onclick="addTask()">Adicionar</button>
-        <ul>
-            <li>Tarefa 1<button>Remover</button></li>
-            <li>Tarefa 2<button>Remover</button></li>
-            <li>Tarefa 3<button>Remover</button></li>
-        </ul>
+        <div class="inputdiv">
+            <input type="text" id="input-tarefa" placeholder="Bolar nova tarefa">
+            <button class="buttonadd" onclick="addTask()">
+                <img src="../../assets/add.png" alt="Add" width="18" height="18"> 
+            </button>
+        </div>
+        <ul id="taskList"></ul>
     </div>
     <script src="../js/script.js"></script>
 </body>

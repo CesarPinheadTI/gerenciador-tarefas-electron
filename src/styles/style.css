@@ -4,25 +4,41 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(83, 50, 0);
+    background-image: url('../../assets/BG.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-color: rgb(83, 50, 0);*/
     justify-content: center;
     display: flex;
     align-items: center;
     font-family: sans-serif;
     color: rgb(66, 44, 8);
 }
-div {
-    background-color: darkgreen;
+.card {
+    background-image: url('../../assets/card.jpg');
+    background-position: center;
+    /*background-color: darkgreen;*/
     max-width: 360px;
-    height: 210px;
-    padding: 20px;
+    height: auto;
+    padding: 20px 20px 0 20px;
     border-radius: 12px;
     margin: 20px;
     border: 2px solid rgb(0, 75, 0);
 }
-h1 {
-    margin-bottom: 10px;
+.inputdiv {
+    align-items: center;
+    display: flex;
 }
+h1 {
+    margin-bottom: 10px;    
+}
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 input {
     border: 2px solid rgb(0, 75, 0);
@@ -40,16 +56,19 @@ input:focus-visible {
 
 .buttonadd {
     background-color: rgb(220, 255, 220);
-    color: darkgreen;
     font-weight: bold;
-    padding: 4px;
+    padding: 2px 10px 0;
     border: 2px solid rgb(0, 75, 0);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.buttonadd:focus-visible {
+    outline: 2px solid rgb(0, 75, 0);
     border-radius: 3px;
 }
 
 .buttonadd:hover {
     background-color: darkgreen;
-    color: rgb(220, 255, 220);
 }
 
 ul {
@@ -58,7 +77,32 @@ ul {
 li {
     font-weight: bold;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    /*border-bottom: 2px;
+    border-bottom-color: darkgreen;*/
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.buttondelete { 
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2px 2px 0;
+    border: 2px solid rgb(175, 0, 0);
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.buttondelete:focus-visible {
+    outline: 2px solid rgb(143, 3, 3);
+    border-radius: 3px;
+    border-radius: 100px;
+}
+
+.buttondelete:hover {
+    background-color: rgb(255, 100, 100);
+}
+.doneTask {
+    text-decoration: line-through;
+    color: rgb(24, 99, 30);
 }
