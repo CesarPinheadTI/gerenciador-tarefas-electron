@@ -106,3 +106,22 @@ li {
     text-decoration: line-through;
     color: rgb(24, 99, 30);
 }
+
+#modal-success {
+    position: fixed;
+    bottom: -180px;
+    right: -100px;
+    display: flex;
+    width: auto;
+    transition: all 0.2s;
+}
+
+#modal-success img {
+    width: 150px;
+}
+
+.open-modal {
+    transition: all 0.2s;
+    bottom: 0 !important;
+    right: -20px !important;
+}
