@@ -5,6 +5,10 @@ meuInput.addEventListener("keypress", function(event) {
     }
 })
 
+
+var audioBG = document.getElementById("audio-BG");
+audioBG.play();
+
 function addTask () {
     var input = document.getElementById("input-tarefa");
     var inputValue = input.value;
